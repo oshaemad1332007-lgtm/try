@@ -750,6 +750,11 @@ body.dark .card1 {
 body.dark .hff,body.dark .hff2,body.dark .hff3 {
 color: #000000 ;
 }
+body.dark .hff:hover,body.dark .hff2:hover,body.dark .hff3:hover{
+color:#1e5aa8;
+}
+
+
 body.dark hr{
 
 border-color: #000000;
