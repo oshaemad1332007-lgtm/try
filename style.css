@@ -221,6 +221,17 @@ height: auto;
 margin-top: 10px;
 margin-bottom: 90px;
 
+}
+
+
+.tef{
+
+text-align: center;
+padding-bottom: 50px;
+ padding-top:15 ;
+ color: #2F4A73 ;
+
+
 
 }
 .hff{
@@ -530,42 +541,64 @@ width: 90%;
 
 /*---------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------*/
-/* 🌙 DARK MODE */
+/*  DARK MODE */
 
+/* nav */
 body.dark {
-    background-color: #1658ff;
+    background-color: #000000;
 }
 
-/* Navbar */
+
 body.dark .navbar {
-    background: #0cf1c3;
+background: linear-gradient(90deg, #020617, #0f172a, #1e293b);}
+
+body.dark .links{
+
+    background: linear-gradient(90deg, #e0f2fe, #cfdee7, #87b8ce);
+
 }
 
-/* Links */
 body.dark .links ul li a {
-    color: #e2e8f0;
+    color: #000000;
 }
 
 body.dark .links ul li a:hover {
-    color: #38bdf8;
+    color: #0284c7;
 }
+body.dark .logo{
+
+        background: linear-gradient(90deg, #e0f2fe, #cfdee7, #87b8ce);
+
+}
+
 
 /* Consoles bar */
 body.dark .consoles-bar {
-    background: #8d2e2e;
+    background: linear-gradient(90deg, #e0f2fe, #cfdee7, #99bfd0);
 }
 
 body.dark .consoles-bar ul li a {
-    color: #e2e8f0;
+    color: #000000;
 }
 
-/* Text */
-body.dark .text,
-body.dark .hff,
-body.dark .hff2,
-body.dark .hff3 {
-    color: #e2e8f0;
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/* first1 */
+body.dark .text ,body.dark .tef {
+    color: #ffffff;
 }
+
+
+/* Explore button */
+body.dark .explore {
+    background: linear-gradient(90deg, #e0f2fe, #cfdee7, #87b8ce);
+
+    color: white;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
 
 /* Cards */
 
@@ -575,17 +608,33 @@ body.dark .cards_home {
 }
 
 body.dark .card1 {
-    background-color: #020617;
-    color: white;
+    background: linear-gradient(90deg, #e0f2fe, #cfdee7, #8caab8);
+    color: rgb(0, 0, 0) !;
 }
 
-/* Explore button */
-body.dark .explore {
-    background: #000000;
-    color: white;
+body.dark .hff,body.dark .hff2,body.dark .hff3 {
+color: #000000 ;
+}
+body.dark hr{
+
+border-color: #000000;
+
 }
 
-/* Image div */
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/* maps */
 body.dark .img_div {
-    background-color: #ffffff;
+    background: linear-gradient(90deg, #e0f2fe, #cfdee7, #a3bac5);
 }
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+body.dark footer{
+
+    background: linear-gradient(90deg, #020617, #0f172a, #1e293b);
+}
+
+
+
